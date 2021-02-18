@@ -1,0 +1,51 @@
+:root {
+
+    --ultramarine-logo:rgba(33, 150, 243, 1);
+    --black-bold:rgba(33, 33, 33, 1);
+    --black-bold:rgba(33, 33, 33, 1);
+    --grey-limpid:rgba(117, 117, 117, 1);
+    --white:rgba(255, 255, 255, 1);
+    --grey-dust:rgba(255, 255, 255, 0.6);
+    --grey-white:rgba(245, 244, 250, 1);
+    --grey-black:rgba(47, 48, 58, 1);
+    
+    }
+
+  .logo-p1 {
+      color: var(--ultramarine-logo)
+  }
+
+  .logo-p2 {
+      color: var(--black-bold);
+  }
+
+  .nav-menu {
+      color: var(--black-bold)
+  }
+
+  .tel-mail-1 {
+      color: var(--grey-limpid)
+  }
+
+  .tel-mail-2 {
+      color: var(--grey-dust);
+  }
+
+  .main-title {
+      color: var(--white)
+  } 
+.background{
+background-color: var(--grey-black);
+}
+
+  .h {
+      color:var(--black-bold)
+  }
+
+  .under-title {
+      color: var(--grey-limpid)
+  }
+
+  .address {
+      color: var(--grey-white)
+  }
