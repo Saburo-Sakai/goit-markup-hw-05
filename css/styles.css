@@ -1,76 +1,103 @@
 :root {
-
-    --ultramarine-logo:rgba(33, 150, 243, 1);
-    --black-bold:rgba(33, 33, 33, 1);
-    --grey-limpid:rgba(117, 117, 117, 1);
-    --white:rgba(255, 255, 255, 1);
-    --grey-dust:rgba(255, 255, 255, 0.6);
-    --grey-white:rgba(245, 244, 250, 1);
-    --grey-black:rgba(47, 48, 58, 1);
-    
-    }
+  --ultramarine-logo: rgba(33, 150, 243, 1);
+  --black-bold: rgba(33, 33, 33, 1);
+  --grey-limpid: rgba(117, 117, 117, 1);
+  --white: rgba(255, 255, 255, 1);
+  --grey-dust: rgba(255, 255, 255, 0.6);
+  --grey-white: rgba(245, 244, 250, 1);
+  --grey-black: rgba(47, 48, 58, 1);
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-
-  .logo-p1 {
-      color: var(--ultramarine-logo)
-      
-  }
-
-  .logo-p2 {
-      color: var(--black-bold);
-      
-  }
-
-  .logo-font {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700
-  }
-
-
-  .nav-menu {
-      color: var(--black-bold);
-      
-  }
-
-  .nav-menu a {
-      font-weight: 500;
-  }
-
-  .tel-mail-1 {
-      color: var(--grey-limpid)
-  }
-
-  .tel-mail-2 {
-      color: var(--grey-dust);
-  }
-
-  .main-title {
-      color: var(--white)
-  } 
-.background{
-background-color: var(--grey-black);
+.logo-p1 {
+  color: var(--ultramarine-logo);
 }
 
-.button-background{
-    background-color: var(--ultramarine-logo);
+.logo-p2 {
+  color: var(--black-bold);
+}
+
+.logo-font {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26;
+}
+
+.nav-menu {
+  color: var(--black-bold);
+}
+
+.nav-menu a {
+  font-weight: 500;
+  font-size: 14;
+}
+
+.tel-mail-1 {
+  color: var(--grey-limpid);
+  font-size: 14;
+}
+
+.mail-to {
+  color: var(--ultramarine-logo);
+  font-size: 14;
+}
+
+.tel-mail-2 {
+  color: var(--grey-dust);
+  font-size: 14;
+}
+
+.main-title {
+  color: var(--white);
+  font-size: 60;
+}
+.background {
+  background-color: var(--grey-black);
+}
+
+.background > h1 {
+  font-weight: 900;
+}
+
+.background > button {
+  font-weight: 700;
+}
+
+.button-background {
+  background-color: var(--ultramarine-logo);
 }
 
 .button-text {
-color:var(--grey-white)
+  color: var(--grey-white);
+  font-size: 30;
 }
 
-  .h {
-      color:var(--black-bold)
-  }
+.h {
+  color: var(--black-bold);
+  font-weight: 700;
+}
 
-  .under-title {
-      color: var(--grey-limpid)
-  }
+.ideals {
+  font-size: 14;
+}
 
-  .address {
-      color: var(--grey-white)
-  }
+.what-we-do {
+  font-size: 36;
+}
+
+.under-title {
+  color: var(--grey-limpid);
+  font-weight: 400;
+  font-size: 14;
+}
+
+.under-name {
+  font-size: 16;
+}
+
+.address {
+  color: var(--grey-white);
+}
