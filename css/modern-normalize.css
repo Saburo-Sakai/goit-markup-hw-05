@@ -288,3 +288,7 @@ Add the correct display in Chrome and Safari.
 summary {
   display: list-item;
 }
+
+li {
+  list-style-type: none;
+}

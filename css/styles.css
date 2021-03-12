@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--black-bold)
 }
 
 .logo-p1 {
@@ -28,7 +29,13 @@ body {
 
 .nav-menu {
   color: var(--black-bold);
+  cursor:pointer;
 }
+
+.nav-menu:hover {
+color: var(--ultramarine-logo)
+}
+
 
 .nav-menu a {
   font-weight: 500;
@@ -37,17 +44,33 @@ body {
 
 .tel-mail-1 {
   color: var(--grey-limpid);
+  cursor:pointer;
   font-size: 14;
 }
 
+.tel-mail-1:hover,
+.tel-mail-1:focus{
+  color:var(--ultramarine-logo);
+}
+
 .mail-to {
-  color: var(--ultramarine-logo);
+  color: var(--grey-limpid);
   font-size: 14;
+}
+
+.mail-to:focus,
+.mail-to:hover {
+  color: var(--ultramarine-logo)
 }
 
 .tel-mail-2 {
   color: var(--grey-dust);
   font-size: 14;
+}
+
+.tel-mail-2:hover,
+.tel-mail-2:focus{
+  color:var(--ultramarine-logo)
 }
 
 .main-title {
@@ -68,6 +91,7 @@ body {
 
 .button-background {
   background-color: var(--ultramarine-logo);
+  cursor:pointer;
 }
 
 .button-text {
@@ -90,7 +114,6 @@ body {
 
 .under-title {
   color: var(--grey-limpid);
-  font-weight: 400;
   font-size: 14;
 }
 
@@ -101,3 +124,9 @@ body {
 .address {
   color: var(--grey-white);
 }
+
+.address:hover,
+.address:focus {
+  color:var(--ultramarine-logo)
+}
+
