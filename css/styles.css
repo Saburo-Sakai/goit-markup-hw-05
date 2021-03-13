@@ -24,7 +24,7 @@ body {
 .logo-font {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26;
+  font-size: 26pt;
 }
 
 .nav-menu {
@@ -39,13 +39,13 @@ color: var(--ultramarine-logo)
 
 .nav-menu a {
   font-weight: 500;
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .tel-mail-1 {
   color: var(--grey-limpid);
   cursor:pointer;
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .tel-mail-1:hover,
@@ -55,7 +55,7 @@ color: var(--ultramarine-logo)
 
 .mail-to {
   color: var(--grey-limpid);
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .mail-to:focus,
@@ -65,7 +65,7 @@ color: var(--ultramarine-logo)
 
 .tel-mail-2 {
   color: var(--grey-dust);
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .tel-mail-2:hover,
@@ -75,7 +75,7 @@ color: var(--ultramarine-logo)
 
 .main-title {
   color: var(--white);
-  font-size: 60;
+  font-size: 60pt;
 }
 .background {
   background-color: var(--grey-black);
@@ -89,15 +89,14 @@ color: var(--ultramarine-logo)
   font-weight: 700;
 }
 
-.button-background {
+
+.button {
   background-color: var(--ultramarine-logo);
+  color: var(--grey-white);
+  font-size: 30pt;
   cursor:pointer;
 }
 
-.button-text {
-  color: var(--grey-white);
-  font-size: 30;
-}
 
 .h {
   color: var(--black-bold);
@@ -105,20 +104,20 @@ color: var(--ultramarine-logo)
 }
 
 .ideals {
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .what-we-do {
-  font-size: 36;
+  font-size: 36pt;
 }
 
 .under-title {
   color: var(--grey-limpid);
-  font-size: 14;
+  font-size: 14pt;
 }
 
 .under-name {
-  font-size: 16;
+  font-size: 16pt;
 }
 
 .address {

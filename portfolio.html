@@ -3,92 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="Portfolio">
+	<link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Портфолио</title>
 </head>
 
 <body>
 	<header>
 		<nav>
-			<a href="index.html"><span>Web</span>Studio</a>
-			<ul>
-         	<li> <a href="/">Студия</a> </li>
-            <li> <a href="/">Потфолио</a> </li>
-            <li> <a href="/">Контакты</a> </li>
-         </ul>
-		</nav>
+            <a href="index.html" class="logo-p2 logo-font"><span class="logo-p1 logo-font">Web</span>Studio</a>
+            <ul class="nav-menu">
+                <li> <a href="/" class="nav-menu">Студия</a> </li>
+                <li> <a href="/" class="nav-menu">Потфолио</a> </li>
+                <li> <a href="/" class="nav-menu">Контакты</a> </li>
+            </ul>
+        </nav>
 		
-		<ul>
-      	<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-     	</ul>
+		<ul class="nav-menu">  
+            <li><a href="mailto:info@devstudio.com" class="mail-to">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="tel-mail-1">+38 096 111 11 11</a></li>
+        </ul>
 	</header>
 	
 	<main>
-		<section>
+		<section class=>
 			<ul>
-			<li><button>Все</button></li>
-			<li><button>Веб-сайт</li>
-			<li><button>Приложения</button></li>
-			<li><button>Дизайн</button></li>
-			<li><button>Маркетинг</button></li>
+			<li><button class="button">Все</button></li>
+			<li><button class="button">Веб-сайт</li>
+			<li><button class="button">Приложения</button></li>
+			<li><button class="button">Дизайн</button></li>
+			<li><button class="button">Маркетинг</button></li>
 			</ul>
 			
 			<section>
 				<ul>
 					<li>
 						<img src="images/portfolio_im_1.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
-						<h2>Технокряк</h2>
-						<p>Веб-сайт</p>
+						<h2 class="h">Технокряк</h2>
+						<p class="under-title under-name" >Веб-сайт</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_2.jpg" alt="Пример дизайна постера с баскетболистами" width="370" height="294"/>
-						<h2>Постер New Orlean vs Golden Star</h2>
-						<p>Дизайн</p>
+						<h2 class="h">Постер New Orlean vs Golden Star</h2>
+						<p class="under-title under-name" >Дизайн</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_3.jpg" alt="Пример приложения для ресторана морской кухни" width="370" height="294"/>
-						<h2>Ресторан Seafood</h2>
-						<p>Приложение</p>
+						<h2 class="h">Ресторан Seafood</h2>
+						<p class="under-title under-name" >Приложение</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_4.jpg" alt="Пример продвижения товара, в данном случае наушников" width="370" height="294"/>
 						<h2>Проект Prime</h2>
-						<p>Маркетинг</p>
+						<p class="under-title under-name" >Маркетинг</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_5.jpg" alt="Пример разработанного приложения. Приложение про коробки." width="370" height="294"/>
-						<h2>Проект Boxes</h2>
-						<p>Приложения</p>
+						<h2 class="h">Проект Boxes</h2>
+						<p class="under-title under-name" >Приложения</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_6.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
-						<h2>Ispiration has no Borders</h2>
-						<p>Веб-сайт</p>
+						<h2 class="h">Ispiration has no Borders</h2>
+						<p class="under-title under-name" >Веб-сайт</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_7.jpg" alt="Дизайн периодического издания" width="370" height="294">
-						<h2>Издание Limited Edition</h2>
-						<p>Дизайн</p>
+						<h2 class="h">Издание Limited Edition</h2>
+						<p class="under-title under-name" >Дизайн</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_8.jpg" alt="Макретинговое продвижение бренда" width="370" height="294"/>
 						<h2>Проект LAB</h2>
-						<p>Маркетинг</p>
+						<p class="under-title under-name">Маркетинг</p>
 					</li>
 					<li>
 						<img src="images/portfolio_im_9.jpg" alt="Пример приложения для пользовоталей ПК" width="370" height="294"/>
-						<h2>Growing Business</h2>
-						<p>Приложение</p>
+						<h2 class="h ">Growing Business</h2>
+						<p class="under-title under-name" >Приложение</p>
 					</li>
-</section>
+			</section>
 </main>
-<footer>
-<a href="/"><span>Web</span> Studio</a>
+<footer class="background">
+	<a href="/" class="main-title logo-font"><span class="logo-p1">Web</span>Studio</a>
     <address>
         <ul>
-            <li><a href="/">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+			<li><a href="/" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
+			<li><a href="mailto:info@example.com" class="tel-mail-2">info@example.com</a></li>
+			<li><a href="tel:+380991111111" class="tel-mail-2">+38 099 111 11 11</a></li>
         </ul>
     </address>
 </footer>
