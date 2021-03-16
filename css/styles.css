@@ -24,7 +24,7 @@ body {
 .logo-font {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26pt;
+  font-size: 26px;
   line-height: 1.17;
 }
 
@@ -37,7 +37,7 @@ body {
   color: var(--black-bold);
   cursor:pointer;
   font-weight: 500;
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.17;
 }
 
@@ -49,7 +49,7 @@ color: var(--ultramarine-logo)
 .tel-mail-1 {
   color: var(--grey-limpid);
   cursor:pointer;
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.17;
 }
 
@@ -60,7 +60,7 @@ color: var(--ultramarine-logo)
 
 .mail-to {
   color: var(--grey-limpid);
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.17;
 }
 
@@ -71,7 +71,7 @@ color: var(--ultramarine-logo)
 
 .tel-mail-2 {
   color: var(--grey-dust);
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.17;
 }
 
@@ -82,13 +82,13 @@ color: var(--ultramarine-logo)
 
 .main-title {
   color: var(--white);
-  font-size: 44pt;
+  font-size: 44px;
   line-height: 1.36;
 }
 
 .main-title-footer {
   color: var(--white);
-  font-size: 26pt;
+  font-size: 26px;
   line-height: 1.17;
 }
 
@@ -108,7 +108,7 @@ color: var(--ultramarine-logo)
 .button {
   background-color: var(--ultramarine-logo);
   color: var(--grey-white);
-  font-size: 16pt;
+  font-size: 16px;
   line-height: 1.87;
   cursor:pointer;
 }
@@ -117,7 +117,7 @@ color: var(--ultramarine-logo)
 .button-portfolio button {
   background-color: var(--grey-white);
   color: var(--black-bold);
-  font-size: 16pt;
+  font-size: 16px;
   line-height: 1.62;
   cursor:pointer;
 }
@@ -134,36 +134,36 @@ color: var(--ultramarine-logo)
 }
 
 .ideals {
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.17;
 }
 
 .what-we-do {
-  font-size: 36pt;
+  font-size: 36px;
    line-height: 1.17;
 }
 
 .under-title {
   color: var(--grey-limpid);
-  font-size: 14pt;
+  font-size: 14px;
   line-height: 1.7;
 }
 
 .under-name {
-  font-size: 16pt;
+  font-size: 16px;
   line-height: 1.17;
 }
 
 .projects > h2 { 
   color: var(--black-bold);
-   font-size: 18pt;
+   font-size: 18px;
    font-weight: 700;
    line-height: 2;
 }
 
 .projects > p {
   color: var(--grey-limpid); 
-  font-size: 16pt;
+  font-size: 16px;
   line-height: 1,87;
 }
 
