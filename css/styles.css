@@ -115,7 +115,7 @@ color: var(--ultramarine-logo)
 
 
 .button-portfolio button {
-  background-color: var(--grey-white;
+  background-color: var(--grey-white);
   color: var(--black-bold);
   font-size: 26pt;
   line-height: 1.62;
@@ -166,7 +166,6 @@ color: var(--ultramarine-logo)
   font-size: 16pt;
   line-height: 1,87;
 }
-
 
 .address {
   color: var(--grey-white);
