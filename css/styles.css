@@ -33,7 +33,7 @@ body {
   cursor:pointer;
 }
 
-.nav-menu a {
+.link {
   color: var(--black-bold);
   cursor:pointer;
   font-weight: 500;
@@ -41,13 +41,19 @@ body {
   line-height: 1.17;
 }
 
+.nav-menu .link.current {
+color: var(--ultramarine-logo);
+}
+
 .nav-menu a:hover {
 color: var(--ultramarine-logo)
 }
 
 
+
 .tel-mail-1 {
   color: var(--grey-limpid);
+  font-weight: 500;
   cursor:pointer;
   font-size: 14px;
   line-height: 1.17;
@@ -60,6 +66,7 @@ color: var(--ultramarine-logo)
 
 .mail-to {
   color: var(--grey-limpid);
+   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
@@ -113,10 +120,58 @@ color: var(--ultramarine-logo)
   cursor:pointer;
 }
 
+.traits {
+color: var(--black-bold);
+font-weight: 700;
+font-size: 14px;
+line-height: 1,17;
+}
+
+.under-traits {
+color: var(--grey-limpid);
+font-size: 14px;
+line-height: 1,7;
+}
+
+.what-we-do {
+  color: var(--black-bold);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,17;
+}
+
+.team-section {
+  background-color: var)var(--grey-white);
+}
+
+.name {
+  color: var(--black-bold);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,17;
+}
+
+.position {
+  color: var(--grey-limpid);
+  font-size: 16px;
+  line-height: 1,7;
+}
+
+.address {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1,7;
+}
+
+.address:hover,
+.address:focus {
+  color:var(--ultramarine-logo)
+}
 
 .button-portfolio button {
   background-color: var(--grey-white);
   color: var(--black-bold);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   cursor:pointer;
@@ -127,52 +182,16 @@ color: var(--ultramarine-logo)
   color: var(--white);
 }
 
-.h {
-  color: var(--black-bold);
-  font-weight: 700;
-   line-height: 1.87;
-}
 
-.ideals {
-  font-size: 14px;
-  line-height: 1.17;
-}
-
-.what-we-do {
-  font-size: 36px;
-   line-height: 1.17;
-}
-
-.under-title {
-  color: var(--grey-limpid);
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.under-name {
-  font-size: 16px;
-  line-height: 1.17;
-}
-
-.projects > h2 { 
+.projects h2 { 
   color: var(--black-bold);
    font-size: 18px;
    font-weight: 700;
    line-height: 2;
 }
 
-.projects > p {
+.projects p {
   color: var(--grey-limpid); 
   font-size: 16px;
-  line-height: 1,87;
+  line-height: 1,9;
 }
-
-.address {
-  color: var(--grey-white);
-}
-
-.address:hover,
-.address:focus {
-  color:var(--ultramarine-logo)
-}
-
