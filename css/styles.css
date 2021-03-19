@@ -141,7 +141,7 @@ line-height: 1,7;
 }
 
 .team-section {
-  background-color: var)var(--grey-white);
+  background-color: var(--grey-white);
 }
 
 .name {
