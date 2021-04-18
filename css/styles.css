@@ -17,8 +17,20 @@
 }
 
 
+.page-header .container{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
 
+}
 
+.navigate{
+  margin-right: auto;
+}
+
+.page-header .tel-mail-1{
+  margin-left:50px;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -46,7 +58,8 @@ body {
 }
 
 .options {
-  display:inline-flex;
+  display:flex;
+  margin-right: auto;
 }
 
 .nav-menu {
