@@ -8,33 +8,45 @@
   --grey-black: rgba(47, 48, 58, 1);
 }
 
-.container{
-  width:1200px;
-  padding-left:15px;
-  padding-right:15px;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-
-.page-header .container{
-  display:flex;
-  align-items: center;
-  justify-content: flex-start;
-
-}
-
-.navigate{
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
   margin-right: auto;
 }
 
-.page-header .tel-mail-1{
-  margin-left:50px;
+/* reset margins for headings & paragraphs */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation {
+  margin-right: auto;
+  align-items: center;
+}
+
+.page-header .tel-mail-1 {
+  margin-left: 50px;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--black-bold)
+  color: var(--black-bold);
 }
 
 .logo-p1 {
@@ -43,11 +55,12 @@ body {
 
 .logo-p2 {
   color: var(--black-bold);
-  
 }
 
-.logo-marge{
-  margin-right:93px;
+.logo-marge {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-font {
@@ -58,62 +71,66 @@ body {
 }
 
 .options {
-  display:flex;
-  margin-right: auto;
+  display: inline-flex;
 }
 
 .nav-menu {
   color: var(--black-bold);
-  cursor:pointer;
-  margin:0px;
-  padding-left:0px;
+  cursor: pointer;
+  margin: 0px;
+  padding-left: 0px;
 }
 
-.menu-item:not(:last-child){
+.menu-item:not(:last-child) {
   margin-right: 40px;
 }
 
 .link {
   color: var(--black-bold);
-  cursor:pointer;
+  cursor: pointer;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .nav-menu .link.current {
-color: var(--ultramarine-logo);
+  color: var(--ultramarine-logo);
 }
 
 .nav-menu a:hover {
-color: var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
-
-
 
 .tel-mail-1 {
   color: var(--grey-limpid);
   font-weight: 500;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 14px;
   line-height: 1.17;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .tel-mail-1:hover,
-.tel-mail-1:focus{
-  color:var(--ultramarine-logo);
+.tel-mail-1:focus {
+  color: var(--ultramarine-logo);
 }
 
 .mail-to {
   color: var(--grey-limpid);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .mail-to:focus,
 .mail-to:hover {
-  color: var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
 
 .tel-mail-2 {
@@ -123,8 +140,8 @@ color: var(--ultramarine-logo)
 }
 
 .tel-mail-2:hover,
-.tel-mail-2:focus{
-  color:var(--ultramarine-logo)
+.tel-mail-2:focus {
+  color: var(--ultramarine-logo);
 }
 
 .main-title {
@@ -151,26 +168,25 @@ color: var(--ultramarine-logo)
   font-weight: 700;
 }
 
-
 .button {
   background-color: var(--ultramarine-logo);
   color: var(--grey-white);
   font-size: 16px;
   line-height: 1.87;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .traits {
-color: var(--black-bold);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.17;
+  color: var(--black-bold);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .under-traits {
-color: var(--grey-limpid);
-font-size: 14px;
-line-height: 1.7;
+  color: var(--grey-limpid);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .what-we-do {
@@ -205,7 +221,7 @@ line-height: 1.7;
 
 .address:hover,
 .address:focus {
-  color:var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
 
 .button-portfolio button {
@@ -214,24 +230,23 @@ line-height: 1.7;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.button-portfolio button:hover{
+.button-portfolio button:hover {
   background-color: var(--ultramarine-logo);
   color: var(--white);
 }
 
-
-.projects h2 { 
+.projects h2 {
   color: var(--black-bold);
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
 }
 
 .projects p {
-  color: var(--grey-limpid); 
+  color: var(--grey-limpid);
   font-size: 16px;
   line-height: 1.9;
 }
