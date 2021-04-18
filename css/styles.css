@@ -130,14 +130,14 @@ line-height: 1,17;
 .under-traits {
 color: var(--grey-limpid);
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 }
 
 .what-we-do {
   color: var(--black-bold);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1.17;
 }
 
 .team-section {
@@ -148,19 +148,19 @@ line-height: 1,7;
   color: var(--black-bold);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,17;
+  line-height: 1.17;
 }
 
 .position {
   color: var(--grey-limpid);
   font-size: 16px;
-  line-height: 1,7;
+  line-height: 1.7;
 }
 
 .address {
   color: var(--white);
   font-size: 14px;
-  line-height: 1,7;
+  line-height: 1.7;
 }
 
 .address:hover,
@@ -193,5 +193,5 @@ line-height: 1,7;
 .projects p {
   color: var(--grey-limpid); 
   font-size: 16px;
-  line-height: 1,9;
+  line-height: 1.9;
 }
