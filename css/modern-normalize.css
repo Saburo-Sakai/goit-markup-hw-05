@@ -5,17 +5,18 @@ Document
 ========
 */
 
-/**
-Use a better box model (opinionated).
-*/
+
+html{
+  box-sizing: border-box;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-inharit;
 }
 
-/**
+
 Use a more readable tab size (opinionated).
 */
 
