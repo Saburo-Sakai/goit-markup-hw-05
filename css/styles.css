@@ -144,10 +144,20 @@ body {
   color: var(--ultramarine-logo);
 }
 
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .main-title {
   color: var(--white);
   font-size: 44px;
   line-height: 1.36;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .main-title-footer {
