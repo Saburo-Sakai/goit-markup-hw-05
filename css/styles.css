@@ -16,7 +16,11 @@
   margin-right: auto;
 }
 
-/* reset margins for headings & paragraphs */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 h1,
 h2,
 h3,
@@ -217,6 +221,12 @@ body {
   flex-basis: calc(100% / 4 - 30px);
 }
 
+.image-item {
+  margin-left: 30px;
+  margin-top: 94px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
 .under-traits {
   color: var(--grey-limpid);
   font-size: 14px;
@@ -228,6 +238,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .team-section {
