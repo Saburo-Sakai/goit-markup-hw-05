@@ -170,6 +170,15 @@ body {
   line-height: 1.17;
 }
 
+.logo-footer-padding {
+  padding-top: 20px;
+}
+
+.background .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .background {
   background-color: var(--grey-black);
 }
@@ -210,9 +219,6 @@ body {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -94px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .item {
@@ -224,7 +230,13 @@ body {
 .image-item {
   margin-left: 30px;
   margin-top: 94px;
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.team-item {
+  margin-left: 30px;
+  margin-top: 94px;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .under-traits {
@@ -239,10 +251,19 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-section {
   background-color: var(--grey-white);
+}
+
+.card-form {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .name {
@@ -250,12 +271,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .position {
   color: var(--grey-limpid);
   font-size: 16px;
   line-height: 1.7;
+  text-align: center;
 }
 
 .address {
@@ -267,6 +290,10 @@ body {
 .address:hover,
 .address:focus {
   color: var(--ultramarine-logo);
+}
+
+.address-item:not(:last-child) {
+  padding-bottom: 9px;
 }
 
 .button-portfolio button {
