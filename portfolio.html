@@ -11,100 +11,121 @@
 </head>
 
 <body>
-	<header>
-		<nav>
-            <a href="index.html" class="logo-p2 logo-font"><span class="logo-p1 logo-font">Web</span>Studio</a>
-            <ul class="nav-menu">
-				<li> <a class="link" href="index.html">Студия</a> </li>
-				<li> <a class="link current" href="portfolio.html">Потфолио</a> </li>
-				<li> <a class="link" href="/">Контакты</a> </li>
-            </ul>
-        </nav>
-		
-		<ul class="nav-menu">  
-            <li><a href="mailto:info@devstudio.com" class="mail-to">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="tel-mail-1">+38 096 111 11 11</a></li>
-        </ul>
+	<header class="page-header header-border">
+		<div class="container">
+			<nav class="navigation">
+				<a href="index.html" class=" logo-p2 logo-font logo-marge"><span
+						class="logo-p1 logo-font">Web</span>Studio</a>
+				<ul class="options nav-menu">
+					<li class="menu-item"> <a class="link" href="index.html">Студия</a> </li>
+					<li class="menu-item"> <a class="link current" href="portfolio.html">Потфолио</a> </li>
+					<li class="menu-item"> <a class="link" href="/">Контакты</a> </li>
+				</ul>
+			</nav>
+			<a href="mailto:info@devstudio.com" class="mail-to">info@devstudio.com</a>
+			<a href="tel:+380961111111" class="tel-mail-1">+38 096 111 11 11</a>
+		</div>
 	</header>
 	
 	<main>
-		<section>
-				<ul class="button-portfolio">
-					<li><button type="button">Все</button></li>
-					<li><button type="button">Веб-сайт</button></li>
-					<li><button type="button">Приложения</button></li>
-					<li><button type="button">Дизайн</button></li>
-					<li><button type="button">Маркетинг</button></li>
+		<section class="section">
+			<Div class="container">
+				<ul class="button-portfolio portfolio-card-set">
+					<li class="portfolio-li-item"><button type="button" class="portfolio-item">Все</button></li>
+					<li class="portfolio-li-item"><button type="button" class="portfolio-item">Веб-сайт</button></li>
+					<li class="portfolio-li-item"><button type="button" class="portfolio-item">Приложения</button></li>
+					<li class="portfolio-li-item"><button type="button" class="portfolio-item">Дизайн</button></li>
+					<li class="portfolio-li-item"><button type="button" class="portfolio-item">Маркетинг</button></li>
 				</ul>
-	
+			</Div>
+		
+			<div class="container">	
+				<ul class="projects examples-card-set">
+					<li class="examples-item">
+						<img src="images/portfolio_im_1.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Технокряк</h2>
+								<p>Веб-сайт</p>
+							</div>
+					</li>
 
-			<ul class="projects">
-				<li>
-					<img src="images/portfolio_im_1.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
-					<h2>Технокряк</h2>
-					<p>Веб-сайт</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_2.jpg" alt="Пример дизайна постера с баскетболистами" width="370" height="294"/>
+							<div class="examples-form">
+								<h2> Постер New Orlean vs Golden Star</h2>
+								<p>Дизайн</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_2.jpg" alt="Пример дизайна постера с баскетболистами" width="370" height="294"/>
-					<h2> Постер New Orlean vs Golden Star</h2>
-					<p>Дизайн</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_3.jpg" alt="Пример приложения для ресторана морской кухни" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Ресторан Seafood</h2>
+								<p>Приложение</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_3.jpg" alt="Пример приложения для ресторана морской кухни" width="370" height="294"/>
-					<h2>Ресторан Seafood</h2>
-					<p>Приложение</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_4.jpg" alt="Пример продвижения товара, в данном случае наушников" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Проект Prime</h2>
+								<p>Маркетинг</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_4.jpg" alt="Пример продвижения товара, в данном случае наушников" width="370" height="294"/>
-					<h2>Проект Prime</h2>
-					<p>Маркетинг</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_5.jpg" alt="Пример разработанного приложения. Приложение про коробки." width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Проект Boxes</h2>
+								<p>Приложения</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_5.jpg" alt="Пример разработанного приложения. Приложение про коробки." width="370" height="294"/>
-					<h2>Проект Boxes</h2>
-					<p>Приложения</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_6.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Ispiration has no Borders</h2>
+								<p>Веб-сайт</p>
+							</div>
+					</li>
+						
+					<li class="examples-item">
+						<img src="images/portfolio_im_7.jpg" alt="Дизайн периодического издания" width="370" height="294">
+							<div class="examples-form">
+								<h2>Издание Limited Edition</h2>
+								<p>Дизайн</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_6.jpg" alt="Пример разработанного веб-сайта" width="370" height="294"/>
-					<h2>Ispiration has no Borders</h2>
-					<p>Веб-сайт</p>
-				</li>
-					
-				<li>
-					<img src="images/portfolio_im_7.jpg" alt="Дизайн периодического издания" width="370" height="294">
-					<h2>Издание Limited Edition</h2>
-					<p>Дизайн</p>
-				</li>
+					<li class="examples-item">
+						<img src="images/portfolio_im_8.jpg" alt="Маркетинговое продвижение бренда" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Проект LAB</h2>
+								<p>Маркетинг</p>
+							</div>
+					</li>
 
-				<li>
-					<img src="images/portfolio_im_8.jpg" alt="Маркетинговое продвижение бренда" width="370" height="294"/>
-					<h2>Проект LAB</h2>
-					<p>Маркетинг</p>
-				</li>
-
-				<li>
-					<img src="images/portfolio_im_9.jpg" alt="Пример приложения для пользовоталей ПК" width="370" height="294"/>
-					<h2>Growing Business</h2>
-					<p>Приложение</p>
-				</li>
-			</ul>
+					<li class="examples-item">
+						<img src="images/portfolio_im_9.jpg" alt="Пример приложения для пользовоталей ПК" width="370" height="294"/>
+							<div class="examples-form">
+								<h2>Growing Business</h2>
+								<p>Приложение</p>
+							</div>
+					</li>
+				</ul>
+			</div>	
 		</section>
 
 </main>
 <footer class="background">
-	<a href="/" class="main-title-footer logo-font"><span class="logo-p1">Web</span>Studio</a>
-	<address>
-		<ul>
-			<li><a href="/" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
-			<li><a href="mailto:info@example.com" class="tel-mail-2">info@example.com</a></li>
-			<li><a href="tel:+380991111111" class="tel-mail-2">+38 099 111 11 11</a></li>
-		</ul>
-	</address>
+<div class="container">
+	<a href="/" class="main-title-footer logo-font "><span class="logo-p1">Web</span>Studio</a>
+	<ul class="logo-footer-padding">
+		<li class="address-item"><a href="/" class="address">г. Киев, пр-т Леси Украинки, 26</a></li>
+		<li class="address-item"><a href="mailto:info@example.com" class="tel-mail-2">info@example.com</a></li>
+		<li class="address-item"><a href="tel:+380991111111" class="tel-mail-2">+38 099 111 11 11</a></li>
+	</ul>
+</div>
 </footer>
 </body>
 				
