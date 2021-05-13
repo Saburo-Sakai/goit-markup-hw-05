@@ -412,8 +412,7 @@ img {
 }
 
 .social-icons {
-  display: flex;
-  justify-items: center;
+  display: inline-flex;
 }
 
 .social-icon-svg {
