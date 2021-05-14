@@ -8,6 +8,7 @@
   --grey-black: rgba(47, 48, 58, 1);
   --line: rgba(236, 236, 236, 1);
   --social-link-color: rgba(175, 177, 184, 1);
+  --hero-overlay: rgba(47, 48, 58, 0, 4);
 }
 
 .container {
@@ -52,6 +53,8 @@ ul {
 
 .page-header .tel-mail-1 {
   margin-left: 50px;
+  display: flex;
+  align-items: center;
 }
 
 body {
@@ -140,6 +143,8 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .mail-to:focus,
@@ -194,7 +199,12 @@ footer {
 }
 
 .background {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--grey-black);
+  background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)),
+    url(../images/Background.jpg);
 }
 
 .background > h1 {
@@ -470,4 +480,9 @@ img {
   border-color: var(--ultramarine-logo);
   fill: var(--ultramarine-logo);
   outline: none;
+}
+
+.phone-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
