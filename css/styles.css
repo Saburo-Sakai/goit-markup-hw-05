@@ -8,7 +8,8 @@
   --grey-black: rgba(47, 48, 58, 1);
   --line: rgba(236, 236, 236, 1);
   --social-link-color: rgba(175, 177, 184, 1);
-  --hero-overlay: rgba(47, 48, 58, 0, 4);
+  --hero-overlay-color: rgba(47, 48, 58, 0, 4);
+  --hero-bg-color: #c4c4c4;
 }
 
 .container {
@@ -202,9 +203,12 @@ footer {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--grey-black);
-  background-image: linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-    url(../images/Background.jpg);
+  background-color: var(--hero-bg-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
 }
 
 .background > h1 {
