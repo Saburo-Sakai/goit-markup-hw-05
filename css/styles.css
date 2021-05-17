@@ -15,7 +15,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   --portfolio-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  --portfolio-primary: rgba(117, 117, 117, 0)
+  --portfolio-primary: rgba(117, 117, 117, 1);
+}
 
 .container {
   width: 1200px;
@@ -421,7 +422,8 @@ footer {
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.examples-item:hover .examples-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   outline: none;
   box-shadow: var(--portfolio-box-shadow);
 }
@@ -584,5 +586,7 @@ img {
   align-items: baseline;
 }
 
-
-
+.portfolio-link {
+  display: block;
+  color: var(--portfolio-primary);
+}
