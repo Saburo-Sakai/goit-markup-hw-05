@@ -16,6 +16,7 @@
   --portfolio-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --portfolio-primary: rgba(117, 117, 117, 1);
+  --modal-background: rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -399,7 +400,7 @@ footer {
   border-radius: 4px;
 }
 
-.projects h2 {
+.examples-form h2 {
   color: var(--black-bold);
   font-size: 18px;
   font-weight: 700;
@@ -407,7 +408,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.projects p {
+.examples-form p {
   color: var(--grey-limpid);
   font-size: 16px;
   line-height: 1.9;
@@ -674,3 +675,97 @@ img {
 }
 
 /*backdrop*/
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-background);
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+/*
+.backdrop.is-hidden .modal {
+  transform: translateX(-100vh);
+}
+*/
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 528px;
+  height: 581px;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid currentColor;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*portfolio overlay*/
+
+.projects .thumb {
+  position: relative;
+  max-height: 294px;
+  overflow: hidden;
+}
+
+.portfolio-link .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 64px 24px;
+
+  background: rgba(33, 150, 243, 0.9);
+  transform: translateY(150%);
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-link:hover .overlay,
+.portfolio-link:focus .overlay {
+  transform: translateY(0);
+}
+
+.projects .text-overlay {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
