@@ -122,7 +122,7 @@ body {
   /* hw-5 */
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) MEN;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu .link.current {
@@ -162,6 +162,10 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-mail-1:hover,
@@ -180,6 +184,10 @@ body {
   padding-bottom: 32px;
   display: flex;
   align-items: center;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-to:focus,
@@ -390,6 +398,10 @@ footer {
   cursor: pointer;
   border-radius: 4px;
   border: 0px;
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio button:hover {
@@ -485,6 +497,10 @@ img {
   align-items: center;
   border-radius: 50%;
   fill: var(--social-link-color);
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-svg {
@@ -526,6 +542,10 @@ img {
   border: 1px solid var(--social-link-color);
   border-radius: 4px;
   fill: var(--social-link-color);
+
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
